@@ -202,7 +202,7 @@ int main()
     }
     
     
-    string data[] = { "wesam"};
+    string data[] = { "data"};
     mem.memory_write(lba, data);
     void* b2 = mem.memory_read(lba, 512);
     cout << "b2 = " << b2 << "\n";
